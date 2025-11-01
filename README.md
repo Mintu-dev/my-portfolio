@@ -3,9 +3,6 @@
 
 This is my personal portfolio website built to showcase my skills, projects, and contact information as a Full Stack Developer.
 
-## 🚀 Live Website
-[View Portfolio](https://mintu-dev.github.io/my-portfolio/)
-
 ## 🛠️ Tech Used
 - HTML, CSS, JavaScript  
 - Git & GitHub  
