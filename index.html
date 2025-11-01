@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3><span>Hi there !</span> , Its me</h3>
+        <h1>Mintu Champ</h1>
+        <h3>And I'm a <span>Full Stack Developer!</span></h3>
+        <p>
+          I am dedicated to building creative, responsive and user-friendly websites....
+        </p>
+        <p>I enjoy crafting smooth user experiences and writing clean, scalable code...</p>
+        <div class="social-media">
+          
+          <a href="https://twitter.com/@Mintu_Kumar1"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://github.com/Mintu-dev"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/mintukumar1"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="images/home.png" alt="home" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about.png" alt="about" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Web Developer !</h3>
+        <p>
+          A Computer Science student passionate about problem-solving  and building efficient solutions with hands-on experience in web development and data structures.I enjoy building projects that solve real world problems and constantly exploring new technologies to grow as a developer.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>web Development</h3>
+          <p class="stack-line">
+            I design and develop responsive websites with the help of...</p>
+            <p class="stack-line"><b>Frontend:</b> HTMl,CSS,JavaScript,React.js. </p>
+            <p class="stack-line"><b>Backend:</b> Node.js,Express.js,RESTful APIs. </p>
+            <p class="stack-line"><b>Database:</b> Mongodb</p>
+        </div>
+        <div class="skills-box">
+           <i class="bx bx-code-alt"></i>
+          <h3>Programming</h3>
+          <ul>
+            <li>C++</li>
+            <li>Java (basics)</li>
+            <li>DSA</li>
+            <li>OOPS</li>
+          </ul>
+        </div>
+        <div class="skills-box">
+          <i class='bx bxl-visual-studio'></i>
+          <h3>Tools&Platforms</h3>
+           <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+           </ul>
+        </div>
+         <div class="skills-box">
+          <i class="bx bxs-group"></i>
+          <h3>Soft Skills</h3>
+           <ul>
+            <li>Communication</li>
+            <li>Problrm Solving</li>
+            <li>Team Collaboration</li>
+           </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+              <video width="600" height="400" controls>
+                <source src="images/netflix.mp4" type="video/mp4">
+              </video>
+           
+             </div>
+             <div class="portfolio-box">
+                <video src="images/videos.mp4" controls></video>
+                <div class="portfolio-layer2">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit cumque sed quia molestiae vel placeat, aliquam nemo? Natus explicabo iste voluptas eum dignissimos minus odio voluptates officia?</p>
+                    <a href="#"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+             <div class="portfolio-box">
+                <video src="images/videos.mov" controls></video>
+            </div>
+             <div class="portfolio-box">
+                <img src="images/To-Do list.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>To Do list</h4>
+                     <p>a simple and interactive web application that helps users manage daily tasks efficiently. It allows users to add new tasks,mark them as completed and delete tasks..This is built using HTML, CSS, JavaScript...</p>
+                    <a href="#"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+</div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email Address">
+
+            </div>
+             <div class="input-box">
+                <input type="text" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+                
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Mintu | All Rights Reserved.</p>
+
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
